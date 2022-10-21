@@ -40,7 +40,7 @@ export class SignupComponent implements OnInit {
     //success
     console.log(data);
     // alert("success");
-    Swal.fire('Successfully done','User id is'+data.id,'success')
+    Swal.fire('Successfully done','User id is: '+data.id, 'success' )
       },
       (error)=>{
 //error
